@@ -74,7 +74,9 @@
 <a id="optionsseparator" class="anchor" href="#optionsseparator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>options.separator</h4>
 
 <p>Type: <code>String</code>
-Default value: <code>',  '</code></p>
+Default value: <code>buddha</code></p>
+
+<p>指明让神兽还是佛珠来保佑我们的代码</p>
 
 <p>A string value that is used to do something with whatever.</p>
 
@@ -82,7 +84,9 @@ Default value: <code>',  '</code></p>
 <a id="optionspunctuation" class="anchor" href="#optionspunctuation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>options.punctuation</h4>
 
 <p>Type: <code>String</code>
-Default value: <code>'.'</code></p>
+Default value: <code>//</code></p>
+
+<p>文件中拼接佛祖或神兽时使用的注释符</p>
 
 <p>A string value that is used to do something else with whatever else.</p>
 
@@ -96,7 +100,10 @@ Default value: <code>'.'</code></p>
 
 <div class="highlight highlight-source-js"><pre><span class="pl-smi">grunt</span>.<span class="pl-en">initConfig</span>({
   buddha_baikalwang<span class="pl-k">:</span> {
-    options<span class="pl-k">:</span> {},
+    options<span class="pl-k">:</span> {
+      <span class="pl-s"><span class="pl-pds">'</span>who<span class="pl-pds">'</span></span> <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>buddha<span class="pl-pds">'</span></span>,
+      <span class="pl-s"><span class="pl-pds">'</span>commentSymbol<span class="pl-pds">'</span></span> <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>//<span class="pl-pds">'</span></span>
+    },
     files<span class="pl-k">:</span> {
       <span class="pl-s"><span class="pl-pds">'</span>dest/default_options<span class="pl-pds">'</span></span><span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>src/testing<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>src/123<span class="pl-pds">'</span></span>],
     },
@@ -128,7 +135,8 @@ Default value: <code>'.'</code></p>
 <h2>
 <a id="release-history" class="anchor" href="#release-history" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Release History</h2>
 
-<p><em>(Nothing yet)</em></p>
+<p>2016.06.05    v0.0.1   
+<em>(Nothing yet)</em></p>
       </section>
     </div>
 
