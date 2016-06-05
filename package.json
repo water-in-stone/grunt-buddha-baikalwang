@@ -1,0 +1,39 @@
+{
+  "name": "grunt-buddha-baikalwang",
+  "description": "Buddha\\'s grace illuminates code as sunshine",
+  "version": "0.0.1",
+  "homepage": "https://github.com/water-in-stone/grunt-buddha-baikalwang",
+  "author": {
+    "name": "Young",
+    "email": "523464427@qq.com",
+    "url": "https://github.com/water-in-stone"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/water-in-stone/grunt-buddha-baikalwang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/water-in-stone/grunt-buddha-baikalwang/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/water-in-stone/grunt-buddha-baikalwang/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
